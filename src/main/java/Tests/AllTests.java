@@ -190,7 +190,7 @@ public class AllTests extends SetupDriver {
     )
     public void verifyClickingOkWithValidOtpRedirectsToOrderSuccessfulScreen() throws InterruptedException {
         this.homePage.buyNow();
-        this.homePage.Checkout();
+        this.homePage.checkOut();
         this.homePage.clickOnCreditOrDebitCardSection();
         this.homePage.addCartDetails();
         this.homePage.bankPaymentSection();
